@@ -10,7 +10,7 @@ choco install azure-cli -y
 ```
 Download terraform.exe ON PATH: https://www.terraform.io/downloads.html
 
-Need to use Git bash to build Terraform Azure provider:
+Need to use Git bash (`choco install git -y`) to build Terraform Azure provider:
 * https://github.com/terraform-providers/terraform-provider-azurerm#building-the-provider
 
 run `az login` (interactively login to Azure via CLI)
