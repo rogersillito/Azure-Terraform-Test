@@ -15,6 +15,6 @@ Need to use Git bash (`choco install git -y`) to build Terraform Azure provider:
 
 run `az login` (interactively login to Azure via CLI)
 
-then `terraform init` the dir that contains your .tf files (if it's a new project dir: this create the .terraform dir)
+then `terraform init` the dir that contains your .tf files, _i.e. this project root_ (this create the .terraform dir, which contains the Azure provider exe)
 
 __READY TO GO!__
